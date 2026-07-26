@@ -1,0 +1,106 @@
+{
+  "version": "2.0",
+  "source_file": "C:/Users/ij/Documents/maya/projects/default/scenes/assignmentFord.mb",
+  "scene_name": "root",
+  "mesh_count": 1,
+  "material_count": 2,
+  "meshes": [
+    "basket_ball"
+  ],
+  "hierarchy": {
+    "root": {
+      "original_name": "root",
+      "mesh": null,
+      "material_slots": [],
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "children": {
+        "basket_ball": {
+          "original_name": "BasketFBXASC032ball",
+          "mesh": "basket_ball",
+          "material_slots": [
+            "material_001",
+            "leather_procedural"
+          ],
+          "transform": {
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "children": {}
+        }
+      }
+    }
+  },
+  "materials": {
+    "leather_procedural": {
+      "base_color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5036,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "emissive_color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "texture_maps": {},
+      "is_default": false
+    },
+    "material_001": {
+      "base_color": [
+        0.8756,
+        0.1106,
+        0.011
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "emissive_color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "texture_maps": {},
+      "is_default": false
+    }
+  },
+  "mesh_material_assignments": {
+    "basket_ball": [
+      "material_001",
+      "leather_procedural"
+    ]
+  }
+}
